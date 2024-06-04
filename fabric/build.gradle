@@ -66,6 +66,8 @@ processResources {
 }
 
 tasks.withType(JavaCompile) {
+    sourceCompatibility = '21'
+    targetCompatibility = '21'
     source(project(":common").sourceSets.main.allSource)
 }
 
@@ -102,7 +104,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
 }
 
 modrinth {
-    token = findProperty('modrinthKey') ?: 0
+    token = findProperty('modrinthKey') ?: "0"
     projectId = "${modrinth_id}"
     versionName = getArchivesBaseName() + "-" + getVersion()
     versionType = "${release_type}"

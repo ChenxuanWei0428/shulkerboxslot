@@ -7,6 +7,6 @@ public class ShulkerBoxSlotConfigInitializer implements SpectreLibInitializer {
 
   @Override
   public void onInitializeConfig(ModContainer modContainer) {
-    ShulkerBoxSlotConfig.setup();
+    //ShulkerBoxSlotConfig.setup();
   }
 }

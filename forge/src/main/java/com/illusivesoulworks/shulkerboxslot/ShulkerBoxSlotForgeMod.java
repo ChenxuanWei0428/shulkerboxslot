@@ -51,7 +51,7 @@ public class ShulkerBoxSlotForgeMod {
     IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
     eventBus.addListener(this::setup);
     eventBus.addListener(this::clientSetup);
-    ShulkerBoxSlotConfig.setup();
+    //ShulkerBoxSlotConfig.setup();
   }
 
   private void setup(final FMLCommonSetupEvent evt) {

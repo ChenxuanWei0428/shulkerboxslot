@@ -1,5 +1,6 @@
 package com.illusivesoulworks.shulkerboxslot;
 
+/*
 import com.illusivesoulworks.spectrelib.config.SpectreConfig;
 import com.illusivesoulworks.spectrelib.config.SpectreConfigLoader;
 import com.illusivesoulworks.spectrelib.config.SpectreConfigSpec;
@@ -32,3 +33,4 @@ public class ShulkerBoxSlotConfig {
     SpectreConfigLoader.add(SpectreConfig.Type.SERVER, SERVER_SPEC, ShulkerBoxSlotConstants.MOD_ID);
   }
 }
+*/
